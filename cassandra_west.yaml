@@ -9,7 +9,7 @@ spec:
       targetPort: 9042
       protocol: TCP
       name: outer
-      nodePort: 31092
+      nodePort: 31093
   selector:
     app: cassandra-west
 ---
