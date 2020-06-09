@@ -114,6 +114,7 @@ spec:
   # These are converted to volume claims by the controller
   # and mounted at the paths mentioned above.
   # do not use these in production until ssd GCEPersistentDisk or other ssd pd
+  #   Change This ##########################
   volumeClaimTemplates:
   - metadata:
       name: cassandra-data-north
